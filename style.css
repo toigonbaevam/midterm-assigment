@@ -213,7 +213,7 @@ h5{
     border: 2px solid #f9004d;
     cursor:pointer;
 }
-.contact-me{
+.contact-me {
     width: 100%;
     height: 290px;
     background: #191919;
@@ -242,4 +242,108 @@ h5{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor:pointer;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card1{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card1 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra1 p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card1 .button1{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card1 .button1:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor:pointer;
+}
+.about2{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about2 img{
+    height: auto;
+    width: 430px;
+}
+.about2-text{
+    width: 550px;
+}
+.main2{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.about2-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about2-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about2-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button2{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button2:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
 }
